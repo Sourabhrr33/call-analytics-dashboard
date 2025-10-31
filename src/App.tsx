@@ -307,7 +307,7 @@ const App: React.FC = () => {
                                 label={renderCustomizedLabel}
                                 innerRadius={60}
                             >
-                                {DUMMY_HOSTILITY_DATA.map((entry: HostilityData, index) => (
+                                {DUMMY_HOSTILITY_DATA.map((entry: HostilityData,) => (
                                     <Cell key={`cell-${entry.label}`} fill={entry.color} />
                                 ))}
                             </Pie>
