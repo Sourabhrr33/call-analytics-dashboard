@@ -3,7 +3,7 @@ import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, L
 import Modal from './components/Modal';
 import ChartCard from './components/ChartCard';
 import { initializeFirebase, saveCustomChartData, getCustomChartData } from './services/firebaseService';
-import type { CallDurationData, HostilityData, SadPathData } from './data/chartData';
+import type { CallDurationData, HostilityData } from './data/chartData';
 import { 
     DUMMY_CALL_DURATION_DATA, 
     DUMMY_SAD_PATH_DATA, 
